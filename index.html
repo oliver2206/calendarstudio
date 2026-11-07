@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar PSD Studio</title>
+  </head>
+  <body>
+    <div class="app">
+      <aside class="panel">
+        <header class="brand">
+          <h1>Calendar PSD Studio</h1>
+          <p>Design a commercial calendar and export layered <b>.PSD</b> files for Photoshop.</p>
+        </header>
+        <div id="form"></div>
+      </aside>
+
+      <main class="stage">
+        <div class="toolbar">
+          <div id="tabs" class="tabs"></div>
+          <div class="actions">
+            <button id="btnPsd" class="primary">Download PSD (this page)</button>
+            <button id="btnZip">All pages · ZIP</button>
+            <button id="btnSeq">All pages · one by one</button>
+            <button id="btnPng">PNG</button>
+          </div>
+        </div>
+        <div id="tools" class="tools"></div>
+        <div class="canvas-wrap">
+          <canvas id="preview"></canvas>
+        </div>
+        <div id="status" class="status">Ready.</div>
+      </main>
+
+      <aside class="side">
+        <div id="inspector" class="inspector"></div>
+        <div id="layers" class="layers"></div>
+      </aside>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
